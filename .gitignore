@@ -1,0 +1,37 @@
+# Build artifacts
+cmake-build-*/
+build/
+bin/
+obj/
+
+# CLion/JetBrains workspace files
+.idea/
+*.iml
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# macOS system files
+.DS_Store
+
+# Backup and temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# Generated files
+*.out
+*.o
+*.obj
+*.exe
+*.log
+
+# User-specific config
+.vscode/
+.env
