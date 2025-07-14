@@ -3,10 +3,8 @@
 void print(int);
 
 int main() {
-    print(sizeof(int));
-    return 0;
+  print(sizeof(int));
+  return 0;
 }
 
-void print(int value) {
-    std::cout << "Value: " << value << std::endl;
-}      
+void print(int value) { std::cout << "Value: " << value << std::endl; }
